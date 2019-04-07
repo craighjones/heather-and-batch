@@ -15,18 +15,18 @@ html, body {
 
 h1 {
   color: #243531;
-  font-size: 27px;
+  font-size: 24px;
   font-weight: 800;
-  line-height: 39px;
+  line-height: 30px;
   letter-spacing: 1px;
   margin: 0;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 27px;
+  font-size: 24px;
   font-weight: 300;
-  line-height: 39px;
+  line-height: 30px;
   padding-bottom: 26px;
   margin: 0;
 }
@@ -35,10 +35,10 @@ h3 {
   color: #243531;
   font-size: 18px;
   font-weight: 800;
-  line-height: 26px;
+  line-height: 24px;
   letter-spacing: 1px;
   margin: 0;
-  padding-bottom: 26px;
+  padding-bottom: 12px;
   text-transform: uppercase;
 }
 
@@ -53,9 +53,9 @@ h4 {
 p {
   font-size: 18px;
   font-weight: 300;
-  line-height: 26px;
+  line-height: 24px;
   margin: 0;
-  padding-bottom: 26px;
+  padding-bottom: 24px;
 }
 
 figcaption {
@@ -315,6 +315,12 @@ p a:hover {
   display: block;
 }
 
+.centre {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
 .embed-container {
   clear: both;
   height: 0;
@@ -378,7 +384,8 @@ p a:hover {
 .image {
   background: #fff;
   margin: 0 auto;
-  padding: 20px;
+  width: 25%;
+  padding-bottom: : 40px;
 }
 
 .image-group {
@@ -434,13 +441,19 @@ p a:hover {
 @media all and (min-width: 700px) {
 
   h1 {
-    font-size: 36px;
-    line-height: 52px;
+    font-size: 32px;
+    line-height: 40px;
   }
 
   h2 {
-    font-size: 36px;
-    line-height: 52px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .centre {
+    margin: auto;
+    width: 68%;
+    text-align: center;
   }
 
   .flex {
@@ -472,7 +485,7 @@ p a:hover {
   }
 
   .image {
-    padding: 40px;
+    padding-bottom: : 40px;
   }
 
   .large {
