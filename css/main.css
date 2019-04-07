@@ -14,10 +14,13 @@ html, body {
 /* Typography */
 
 h1 {
+  color: #243531;
   font-size: 27px;
   font-weight: 800;
   line-height: 39px;
+  letter-spacing: 1px;
   margin: 0;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -29,11 +32,14 @@ h2 {
 }
 
 h3 {
+  color: #243531;
   font-size: 18px;
   font-weight: 800;
   line-height: 26px;
+  letter-spacing: 1px;
   margin: 0;
   padding-bottom: 26px;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -41,6 +47,7 @@ h4 {
   font-weight: 300;
   line-height: 26px;
   margin: 0;
+  text-transform: uppercase;
 }
 
 p {
