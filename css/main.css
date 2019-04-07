@@ -384,7 +384,7 @@ p a:hover {
 .image {
   background: #fff;
   margin: 0 auto;
-  width: 40%;
+  width: 25%;
   padding-bottom: : 40px;
 }
 
@@ -485,6 +485,9 @@ p a:hover {
   }
 
   .image {
+    background: #fff;
+    margin: 0 auto;
+    width: 25%;
     padding-bottom: : 40px;
   }
 
@@ -495,7 +498,7 @@ p a:hover {
   }
 
   .large-type-thick {
-font-weight: 800;
+    font-weight: 800;
     font-size: 36px;
     line-height: 52px;
     margin: 0;
