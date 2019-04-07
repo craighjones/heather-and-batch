@@ -384,7 +384,7 @@ p a:hover {
 .image {
   background: #fff;
   margin: 0 auto;
-  width: 40%;
+  width: 180px;
   padding-bottom: : 40px;
 }
 
@@ -487,7 +487,7 @@ p a:hover {
   .image {
     background: #fff;
     margin: 0 auto;
-    width: 25%;
+    width: 240px;
     padding-bottom: : 40px;
   }
 
@@ -529,12 +529,4 @@ p a:hover {
     display: inline;
     padding-right: 15px;
   }
-
-  /*ul.large {
-    margin: 0;
-  }*/
-
-  /*h3.large-type {
-    padding-bottom: 26px;
-  }*/
 }
