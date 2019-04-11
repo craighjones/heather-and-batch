@@ -213,10 +213,10 @@ nav {
     border-bottom: 2px solid #131313;
 }
 
-a:focus {
+/* a:focus {
   outline-style: none;
   outline-width: 0px;
-}
+} */
 
 a.button-home-black {
   color: #131313;
@@ -285,7 +285,12 @@ p a {
 }
 
 p a:hover {
-  border-bottom: 2px solid #131313;
+  border-bottom: 2px solid #243531;
+}
+
+a:focus {
+    background-color: #ffbf47;
+    outline: 3px solid #ffbf47;
 }
 
 
